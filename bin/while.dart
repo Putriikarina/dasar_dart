@@ -1,8 +1,8 @@
 void main() {
-  var counter = 10;
+  var counter = 1;
 
-  do{
+  while (counter <= 5) {
     print('Perulangan ke-$counter');
     counter++;
-  } while (counter <= 10);
+  }
 }

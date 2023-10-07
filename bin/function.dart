@@ -3,8 +3,6 @@ void main() {
   print('Hello World');
 }
 
-void mai(){
   sayHello();
   sayHello();
-}
 }

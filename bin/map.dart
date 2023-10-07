@@ -14,7 +14,7 @@ void main(){
 
   print(name['firsh']);
 
-  name['middle'] = 'Nugraha';
+  name['middle'] = 'Karina';
   print(name);
 
   name.remove('last');

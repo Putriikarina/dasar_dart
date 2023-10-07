@@ -1,4 +1,4 @@
-void main(){
+void main() {
   var inputString = '1000';
   var inputInt = int.parse(inputString);
   var inputDouble = double.parse(inputString);
@@ -11,10 +11,4 @@ void main(){
 
   print(inputString);
   print(inputDouble);
-
-  var inputString2 = 'true';
-  var inputBool = inputString == 'true';
-
- inputBool.toString();
- print(inputString2);
 }

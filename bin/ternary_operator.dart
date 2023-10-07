@@ -8,8 +8,8 @@ void main(){
   } else {
     ucapan = 'Selamat And Lulus';
   }
-
+print(ucapan);
   //ternary operator
-  var nilai = 75;
-  var ucapan = nilai >= nilai 75 ? 'Selamat Anda Lulus' : 'Silahkan Coba lagi';
+  var ucapan2 = nilai >= 75 ? 'Selamat Anda Lulus' : 'Silahkan Coba lagi';
+  print(ucapan2);
 }

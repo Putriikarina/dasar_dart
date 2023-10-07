@@ -1,5 +1,5 @@
 void main() {
-  dynamic variable = 100;
+  dynamic variable = 80;
   print(variable);
 
   variable = true;

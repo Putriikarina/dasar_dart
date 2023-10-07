@@ -1,8 +1,8 @@
 void main() {
-  dynamic variable = 100;
+  dynamic variable = 70;
 
-  var variableInt = variable as int;
+  variable as int;
 
-  var isInt = variable is int;
-  var isNotBoolean = variable is! bool;
+  variable is! bool;
+  print(variable);
 }

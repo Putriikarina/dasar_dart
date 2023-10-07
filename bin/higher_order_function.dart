@@ -8,14 +8,12 @@ void main() {
 //higher order function
 String filterBadWord(String name) {
   if (name == 'gila') {
-    return "***";
+    return "****";
   } else {
     return name;
   }
 }
 
-void main(){
-  sayHello('Eko', filterBadWord);
+  sayHello('Putri', filterBadWord);
   sayHello('gila', filterBadWord);
-}
 }

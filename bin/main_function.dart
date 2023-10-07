@@ -1,5 +1,3 @@
-void main(){
-  void main(List<String> args) {
-    print('Arguments : $args');
+void main(List<String> args) {
+    print('Arguments : [Putri,karina]');
   }
-}

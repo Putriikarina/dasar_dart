@@ -1,10 +1,5 @@
 void main() {
-  //create list of int
-  List<int> ListInt = [];
-
   //create list of String
-  var listString = <String>[];
-
   var names = <String>[];
 
   names.add('Putri');

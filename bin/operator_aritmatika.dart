@@ -1,10 +1,22 @@
 void main() {
-  var result1 = 10 + 10;
-  var result2 = 100 - 10;
-  var result3 = -5;
-  var result4 = 5;
-  var result5 = 5 * 5;
-  var result6 = 10 / 3;
-  var result7 = 10 ~/ 3;
-  var result8 = 10 % 3;
+  var variabel1 = 20;
+  var variabel2 = 8;
+  //Pertambahan
+  variabel1 + variabel2;
+  print('hasil dari 20 + 8 = ${variabel1 + variabel2}');
+  //Pengurangan
+  variabel1 - variabel2;
+  print('hasil dari 20 - 8 = ${variabel1 - variabel2}');
+  //Perkalian
+  variabel1 * variabel2;
+  print('hasil dari 20 * 8 = ${variabel1 * variabel2}');
+  //Pembagian,hasil double
+  variabel1 / variabel2;
+  print('hasil dari 20 / 8 = ${variabel1 / variabel2}');
+  //Pembagian, hasil int
+  variabel1 ~/ variabel2;
+  print('hasil dari 20 ~/ 8 = ${variabel1 ~/ variabel2}');
+  //Sisa Bagi
+  variabel1 % variabel2;
+  print('hasil dari 20 % 8 = ${variabel1 % variabel2}');
 }

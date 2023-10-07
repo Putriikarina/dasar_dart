@@ -1,5 +1,6 @@
 void main(){
-  switch (nilai){
+  var nilai = 'A';
+  switch (nilai) {
     case 'A':
       print('Wow Anda Lulus Dengan Baik');
       break;
